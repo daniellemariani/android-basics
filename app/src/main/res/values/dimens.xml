@@ -1,5 +1,9 @@
 <resources>
 
+    <!-- general -->
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
     <!-- feature item -->
     <dimen name="item_feature_padding">10dp</dimen>
     <dimen name="item_feature_name_text_size">16sp</dimen>

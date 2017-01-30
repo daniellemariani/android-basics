@@ -12,6 +12,7 @@ import com.dmariani.basics.R;
 import com.dmariani.basics.model.Feature;
 import com.dmariani.basics.ui.adapter.FeatureAdapter;
 import com.dmariani.basics.ui.listener.OnFeatureClickListener;
+import com.dmariani.basics.ui.navigation.MainActivityNavigation;
 import com.dmariani.basics.util.FeatureUtils;
 
 import java.util.List;
@@ -21,7 +22,7 @@ import java.util.List;
  *
  * @author danielle.mariani
  */
-public class MainActivity extends AppCompatActivity implements OnFeatureClickListener {
+public class MainActivity extends AppCompatActivity implements MainActivityNavigation, OnFeatureClickListener {
 
     private RecyclerView recyclerView;
 
@@ -53,6 +54,18 @@ public class MainActivity extends AppCompatActivity implements OnFeatureClickLis
 
     @Override
     public void onFeatureClick(Feature feature) {
+        String id = feature.getId();
+
+        if (id.equals(Feature.FEATURE_COLLAPSE_TOOLBAR_I)) {
+            navigateToScrollView();
+            return;
+        }
+
         Toast.makeText(this, "Navigate to Feature: " + feature.getName(), Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void navigateToScrollView() {
+        startActivity(ScrollingActivity.getIntent(this));
     }
 }

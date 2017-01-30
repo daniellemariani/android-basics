@@ -1,8 +1,8 @@
 [
   {
-    "id": "FEATURE_1",
-    "name": "Feature 1",
-    "description": "Some description 1"
+    "id": "FEATURE_COLLAPSE_TOOLBAR_I",
+    "name": "Collapse Toolbar I",
+    "description": "Collapse Toolbar with NestedScrollView implemented in a Coordinator Layout"
   },
   {
     "id": "FEATURE_2",
