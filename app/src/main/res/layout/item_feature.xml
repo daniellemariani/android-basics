@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/item_feature_padding">
+
+    <TextView
+        android:id="@+id/textview_feature_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/item_feature_name_margin_bottom"
+        android:textSize="@dimen/item_feature_name_text_size"
+        tools:text="Feature's Name" />
+
+    <TextView
+        android:id="@+id/textview_feature_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textview_feature_name"
+        android:textSize="@dimen/item_feature_description_text_size"
+        tools:text="Feature's Description" />
+</RelativeLayout>
