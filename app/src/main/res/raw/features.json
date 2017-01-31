@@ -10,9 +10,9 @@
     "description": "Collapse Toolbar with a Floating Action Button and a NestedScrollView implemented in a Coordinator Layout"
   },
   {
-    "id": "FEATURE_3",
-    "name": "Feature 3",
-    "description": "Some description 3"
+    "id": "FEATURE_COLLAPSE_IMAGE_TOOLBAR",
+    "name": "Collapse Image Toolbar",
+    "description": "Collapse Image Toolbar with a Floating Action Button and a NestedScrollView implemented in a Coordinator Layout"
   },
   {
     "id": "FEATURE_4",

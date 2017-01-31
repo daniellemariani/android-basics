@@ -10,4 +10,6 @@ public interface MainActivityNavigation {
     void navigateToScrollView();
 
     void navigateToScrollFloatButtonView();
+
+    void navigateToCollapseImageToolbar();
 }

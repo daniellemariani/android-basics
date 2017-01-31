@@ -30,6 +30,12 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:parentActivityName=".ui.activity.MainActivity">
         </activity>
+        <activity
+            android:name=".ui.activity.ScrollingImageActivity"
+            android:label="@string/activity_scrolling_with_image"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ui.activity.MainActivity">
+        </activity>
     </application>
 
 </manifest>

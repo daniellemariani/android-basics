@@ -58,13 +58,13 @@ public class MainActivity extends AppCompatActivity implements MainActivityNavig
 
         if (id.equals(Feature.FEATURE_COLLAPSE_TOOLBAR_1)) {
             navigateToScrollView();
-            return;
         } else if (id.equals(Feature.FEATURE_COLLAPSE_TOOLBAR_2)) {
             navigateToScrollFloatButtonView();
-            return;
+        } else if (id.equals(Feature.FEATURE_COLLAPSE_IMAGE_TOOLBAR)) {
+            navigateToCollapseImageToolbar();
+        } else {
+            Toast.makeText(this, "Navigate to Feature: " + feature.getName(), Toast.LENGTH_SHORT).show();
         }
-
-        Toast.makeText(this, "Navigate to Feature: " + feature.getName(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -75,5 +75,10 @@ public class MainActivity extends AppCompatActivity implements MainActivityNavig
     @Override
     public void navigateToScrollFloatButtonView() {
         startActivity(ScrollingFloatingButtonActivity.getIntent(this));
+    }
+
+    @Override
+    public void navigateToCollapseImageToolbar() {
+        startActivity(ScrollingImageActivity.getIntent(this));
     }
 }
