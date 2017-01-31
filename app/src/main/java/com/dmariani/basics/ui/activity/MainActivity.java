@@ -56,8 +56,11 @@ public class MainActivity extends AppCompatActivity implements MainActivityNavig
     public void onFeatureClick(Feature feature) {
         String id = feature.getId();
 
-        if (id.equals(Feature.FEATURE_COLLAPSE_TOOLBAR_I)) {
+        if (id.equals(Feature.FEATURE_COLLAPSE_TOOLBAR_1)) {
             navigateToScrollView();
+            return;
+        } else if (id.equals(Feature.FEATURE_COLLAPSE_TOOLBAR_2)) {
+            navigateToScrollFloatButtonView();
             return;
         }
 
@@ -67,5 +70,10 @@ public class MainActivity extends AppCompatActivity implements MainActivityNavig
     @Override
     public void navigateToScrollView() {
         startActivity(ScrollingActivity.getIntent(this));
+    }
+
+    @Override
+    public void navigateToScrollFloatButtonView() {
+        startActivity(ScrollingFloatingButtonActivity.getIntent(this));
     }
 }

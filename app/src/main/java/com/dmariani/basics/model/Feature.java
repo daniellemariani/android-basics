@@ -10,7 +10,8 @@ import java.util.List;
 
 public class Feature {
 
-    public static final String FEATURE_COLLAPSE_TOOLBAR_I = "FEATURE_COLLAPSE_TOOLBAR_I";
+    public static final String FEATURE_COLLAPSE_TOOLBAR_1 = "FEATURE_COLLAPSE_TOOLBAR_1";
+    public static final String FEATURE_COLLAPSE_TOOLBAR_2 = "FEATURE_COLLAPSE_TOOLBAR_2";
 
     private String id;
     private String name;

@@ -92,4 +92,8 @@
 
     <!-- menu -->
     <string name="action_settings">Settings</string>
+
+    <!-- floating action button -->
+    <string name="floating_action_button_perform">Performing Button\'s action</string>
+    <string name="snackbar_action_perform">Performing Snackbar\'s action</string>
 </resources>

@@ -8,4 +8,6 @@ package com.dmariani.basics.ui.navigation;
 public interface MainActivityNavigation {
 
     void navigateToScrollView();
+
+    void navigateToScrollFloatButtonView();
 }
