@@ -11,5 +11,5 @@ public interface MainActivityNavigation {
 
     void navigateToScrollFloatButtonView();
 
-    void navigateToCollapseImageToolbar();
+    void navigateToCollapsingImageToolbar();
 }

@@ -1,18 +1,18 @@
 [
   {
-    "id": "FEATURE_COLLAPSE_TOOLBAR_1",
-    "name": "Collapse Toolbar 1",
-    "description": "Collapse Toolbar with NestedScrollView implemented in a Coordinator Layout"
+    "id": "FEATURE_COLLAPSING_TOOLBAR_1",
+    "name": "Collapsing Toolbar 1",
+    "description": "Collapsing Toolbar with NestedScrollView implemented in a Coordinator Layout"
   },
   {
-    "id": "FEATURE_COLLAPSE_TOOLBAR_2",
-    "name": "Collapse Toolbar 2",
-    "description": "Collapse Toolbar with a Floating Action Button and a NestedScrollView implemented in a Coordinator Layout"
+    "id": "FEATURE_COLLAPSING_TOOLBAR_2",
+    "name": "Collapsing Toolbar 2",
+    "description": "Collapsing Toolbar with a Floating Action Button and a NestedScrollView implemented in a Coordinator Layout"
   },
   {
-    "id": "FEATURE_COLLAPSE_IMAGE_TOOLBAR",
-    "name": "Collapse Image Toolbar",
-    "description": "Collapse Image Toolbar with a Floating Action Button and a NestedScrollView implemented in a Coordinator Layout"
+    "id": "FEATURE_COLLAPSING_IMAGE_TOOLBAR",
+    "name": "Collapsing Image Toolbar",
+    "description": "Collapsing Image Toolbar with a Floating Action Button and a NestedScrollView implemented in a Coordinator Layout"
   },
   {
     "id": "FEATURE_4",

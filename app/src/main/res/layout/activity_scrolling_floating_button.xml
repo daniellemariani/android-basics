@@ -7,7 +7,7 @@
     android:fitsSystemWindows="true"
     tools:context=".ui.activity.ScrollingFloatingButtonActivity">
 
-    <!-- First: Define Collapse Toolbar -->
+    <!-- First: Define Collapsing Toolbar -->
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"

@@ -17,7 +17,7 @@ import android.widget.Toast;
 import com.dmariani.basics.R;
 
 /**
- * Feature Activity that shows how to implement Collapse Toolbar Layout
+ * Feature Activity that shows how to implement a Collapsing Toolbar Layout
  * with a Floating Action Button
  *
  * @author danielle.mariani

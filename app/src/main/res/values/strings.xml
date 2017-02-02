@@ -99,7 +99,7 @@
     <string name="snackbar_action_perform">Performing Snackbar\'s action</string>
 
     <!-- activity label -->
-    <string name="activity_scrolling">Collapse Toolbar 1</string>
-    <string name="activity_scrolling_with_floating_button">Collapse Toolbar 2</string>
-    <string name="activity_scrolling_with_image">Collapse Image Toolbar</string>
+    <string name="activity_scrolling">Collapsing Toolbar 1</string>
+    <string name="activity_scrolling_with_floating_button">Collapsing Toolbar 2</string>
+    <string name="activity_scrolling_with_image">Collapsing Image Toolbar</string>
 </resources>
