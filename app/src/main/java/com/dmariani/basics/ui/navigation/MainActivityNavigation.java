@@ -7,9 +7,11 @@ package com.dmariani.basics.ui.navigation;
  */
 public interface MainActivityNavigation {
 
-    void navigateToScrollView();
+    void navigateToCollapsingToolbarSample();
 
-    void navigateToScrollFloatButtonView();
+    void navigateToFloatButtonToolbarSample();
 
-    void navigateToCollapsingImageToolbar();
+    void navigateToCollapsingImageToolbarSample();
+
+    void navigateToQuickReturnSample();
 }

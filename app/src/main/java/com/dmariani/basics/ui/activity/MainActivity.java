@@ -57,28 +57,35 @@ public class MainActivity extends AppCompatActivity implements MainActivityNavig
         String id = feature.getId();
 
         if (id.equals(Feature.FEATURE_COLLAPSING_TOOLBAR_1)) {
-            navigateToScrollView();
+            navigateToCollapsingToolbarSample();
         } else if (id.equals(Feature.FEATURE_COLLAPSING_TOOLBAR_2)) {
-            navigateToScrollFloatButtonView();
+            navigateToFloatButtonToolbarSample();
         } else if (id.equals(Feature.FEATURE_COLLAPSING_IMAGE_TOOLBAR)) {
-            navigateToCollapsingImageToolbar();
+            navigateToCollapsingImageToolbarSample();
+        } else if (id.equals(Feature.FEATURE_QUICK_RETURN)) {
+            navigateToQuickReturnSample();
         } else {
             Toast.makeText(this, "Navigate to Feature: " + feature.getName(), Toast.LENGTH_SHORT).show();
         }
     }
 
     @Override
-    public void navigateToScrollView() {
+    public void navigateToCollapsingToolbarSample() {
         startActivity(ScrollingActivity.getIntent(this));
     }
 
     @Override
-    public void navigateToScrollFloatButtonView() {
+    public void navigateToFloatButtonToolbarSample() {
         startActivity(ScrollingFloatingButtonActivity.getIntent(this));
     }
 
     @Override
-    public void navigateToCollapsingImageToolbar() {
+    public void navigateToCollapsingImageToolbarSample() {
         startActivity(ScrollingImageActivity.getIntent(this));
+    }
+
+    @Override
+    public void navigateToQuickReturnSample() {
+        startActivity(QuickReturnActivity.getIntent(this));
     }
 }

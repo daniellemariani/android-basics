@@ -36,6 +36,12 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:parentActivityName=".ui.activity.MainActivity">
         </activity>
+        <activity
+            android:name=".ui.activity.QuickReturnActivity"
+            android:label="@string/activity_quick_return"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ui.activity.MainActivity">
+        </activity>
     </application>
 
 </manifest>

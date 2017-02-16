@@ -15,8 +15,8 @@
     "description": "Collapsing Image Toolbar with a Floating Action Button and a NestedScrollView implemented in a Coordinator Layout"
   },
   {
-    "id": "FEATURE_4",
-    "name": "Feature 4",
-    "description": "Some description 4"
+    "id": "FEATURE_QUICK_RETURN",
+    "name": "Quick Return Toolbar",
+    "description": "Collapsing Toolbar with Quick Return behavior"
   }
 ]
