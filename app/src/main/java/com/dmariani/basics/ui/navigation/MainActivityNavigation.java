@@ -14,4 +14,6 @@ public interface MainActivityNavigation {
     void navigateToCollapsingImageToolbarSample();
 
     void navigateToQuickReturnSample();
+
+    void navigateToTabLayoutSample();
 }

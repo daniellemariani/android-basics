@@ -40,6 +40,5 @@ public class FeatureUtils {
 
         Gson gson = new Gson();
         return gson.fromJson(reader, listType);
-
     }
 }

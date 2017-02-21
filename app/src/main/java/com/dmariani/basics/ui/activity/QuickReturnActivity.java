@@ -14,6 +14,8 @@ import android.widget.Toast;
 import com.dmariani.basics.R;
 
 /**
+ * Feature Activity that shows how to implement a Toolbar with QuickReturn behavior
+ *
  * @author danielle.mariani
  */
 public class QuickReturnActivity extends AppCompatActivity {

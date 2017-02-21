@@ -14,6 +14,7 @@ public class Feature {
     public static final String FEATURE_COLLAPSING_TOOLBAR_2 = "FEATURE_COLLAPSING_TOOLBAR_2";
     public static final String FEATURE_COLLAPSING_IMAGE_TOOLBAR = "FEATURE_COLLAPSING_IMAGE_TOOLBAR";
     public static final String FEATURE_QUICK_RETURN = "FEATURE_QUICK_RETURN";
+    public static final String FEATURE_TABLAYOUT = "FEATURE_TABLAYOUT";
 
     private String id;
     private String name;

@@ -18,5 +18,10 @@
     "id": "FEATURE_QUICK_RETURN",
     "name": "Quick Return Toolbar",
     "description": "Collapsing Toolbar with Quick Return behavior"
+  },
+  {
+    "id": "FEATURE_TABLAYOUT",
+    "name": "TabLayout",
+    "description": "Material Tabs through TabLayout"
   }
 ]

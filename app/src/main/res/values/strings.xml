@@ -103,4 +103,6 @@
     <string name="activity_scrolling_with_floating_button">Collapsing Toolbar 2</string>
     <string name="activity_scrolling_with_image">Collapsing Image Toolbar</string>
     <string name="activity_quick_return">Quick Return</string>
+    <string name="activity_tab">TabLayout</string>
+
 </resources>

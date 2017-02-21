@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dmariani.basics">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -39,6 +41,12 @@
         <activity
             android:name=".ui.activity.QuickReturnActivity"
             android:label="@string/activity_quick_return"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ui.activity.MainActivity">
+        </activity>
+        <activity
+            android:name=".ui.activity.TabActivity"
+            android:label="@string/activity_tab"
             android:theme="@style/AppTheme.NoActionBar"
             android:parentActivityName=".ui.activity.MainActivity">
         </activity>

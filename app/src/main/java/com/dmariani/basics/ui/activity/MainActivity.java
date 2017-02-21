@@ -64,6 +64,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityNavig
             navigateToCollapsingImageToolbarSample();
         } else if (id.equals(Feature.FEATURE_QUICK_RETURN)) {
             navigateToQuickReturnSample();
+        } else if (id.equals(Feature.FEATURE_TABLAYOUT)) {
+            navigateToTabLayoutSample();
         } else {
             Toast.makeText(this, "Navigate to Feature: " + feature.getName(), Toast.LENGTH_SHORT).show();
         }
@@ -87,5 +89,10 @@ public class MainActivity extends AppCompatActivity implements MainActivityNavig
     @Override
     public void navigateToQuickReturnSample() {
         startActivity(QuickReturnActivity.getIntent(this));
+    }
+
+    @Override
+    public void navigateToTabLayoutSample() {
+        startActivity(TabActivity.getIntent(this));
     }
 }

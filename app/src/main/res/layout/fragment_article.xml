@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/item_feature_padding">
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/item_feature_name_margin_bottom"
+            android:textSize="@dimen/article_title_text_size"
+            tools:text="Page Title's Name" />
+
+        <ImageView
+            android:id="@+id/image_article"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/article_image_min_height"
+            android:layout_below="@id/textview_title"
+            android:layout_marginTop="@dimen/article_image_margin"
+            android:scaleType="centerCrop"
+            tools:layout_height="@dimen/article_image_min_height"
+            tools:background="@color/primary_light"/>
+
+        <TextView
+            android:id="@+id/textview_image_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image_article"
+            android:layout_marginBottom="@dimen/article_image_margin"
+            android:textSize="@dimen/article_image_text_size"
+            tools:text="Image's Description" />
+
+        <TextView
+            android:id="@+id/textview_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textview_image_description"
+            android:textSize="@dimen/article_content_text_size"
+            tools:text="Page's Content" />
+    </RelativeLayout>
+
+</ScrollView>
