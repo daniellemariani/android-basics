@@ -23,5 +23,10 @@
     "id": "FEATURE_TABLAYOUT",
     "name": "TabLayout",
     "description": "Material Tabs through TabLayout"
+  },
+  {
+    "id": "FEATURE_TABLAYOUT_WITH_IMAGE",
+    "name": "TabLayout Image",
+    "description": "Material Tabs through TabLayout with Flexible Space"
   }
 ]

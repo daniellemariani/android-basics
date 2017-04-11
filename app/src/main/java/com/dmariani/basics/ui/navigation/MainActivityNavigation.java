@@ -16,4 +16,6 @@ public interface MainActivityNavigation {
     void navigateToQuickReturnSample();
 
     void navigateToTabLayoutSample();
+
+    void navigateToTabLayoutWithImageSample();
 }
