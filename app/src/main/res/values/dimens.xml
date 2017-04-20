@@ -20,4 +20,8 @@
     <dimen name="article_image_margin">10dp</dimen>
     <dimen name="article_image_min_height">150dp</dimen>
     <dimen name="article_content_text_size">14sp</dimen>
+
+    <!-- simple fragment -->
+    <dimen name="base_image_height">150dp</dimen>
+    <dimen name="base_image_width">150dp</dimen>
 </resources>
