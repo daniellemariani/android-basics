@@ -106,6 +106,7 @@
     <string name="activity_tab">TabLayout</string>
     <string name="activity_tab_image">TabLayout Image</string>
     <string name="activity_bottom_navigation">Bottom Navigation</string>
+    <string name="activity_bottom_sheet">Bottom Sheet</string>
 
     <!-- bottom navigation -->
     <string name="bottom_navigation_gallery">Gallery</string>

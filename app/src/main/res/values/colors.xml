@@ -13,5 +13,6 @@
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
     <color name="cyan">#00FFFF</color>
+    <color name="lightgrey">#E6E6E6</color>
 
 </resources>

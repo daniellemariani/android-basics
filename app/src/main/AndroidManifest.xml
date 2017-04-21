@@ -62,6 +62,12 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:parentActivityName=".ui.activity.MainActivity">
         </activity>
+        <activity
+            android:name=".ui.activity.BottomSheetActivity"
+            android:label="@string/activity_bottom_sheet"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ui.activity.MainActivity">
+        </activity>
     </application>
 
 </manifest>

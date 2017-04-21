@@ -33,5 +33,10 @@
     "id": "FEATURE_BOTTOM_NAVIGATION_VIEW",
     "name": "Bottom Navigation",
     "description": "Navigation sample using Bottom Navigation View component"
+  },
+  {
+    "id": "FEATURE_BOTTOM_SHEET",
+    "name": "Bottom Sheet",
+    "description": "Bottom Sheet actions"
   }
 ]

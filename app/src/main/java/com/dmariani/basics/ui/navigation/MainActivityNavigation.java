@@ -20,4 +20,6 @@ public interface MainActivityNavigation {
     void navigateToTabLayoutWithImageSample();
 
     void navigateToBottomNavigationViewSample();
+
+    void navigateToBottomSheetSample();
 }

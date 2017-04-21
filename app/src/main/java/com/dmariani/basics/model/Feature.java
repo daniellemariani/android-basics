@@ -17,6 +17,7 @@ public class Feature {
     public static final String FEATURE_TABLAYOUT = "FEATURE_TABLAYOUT";
     public static final String FEATURE_TABLAYOUT_WITH_IMAGE = "FEATURE_TABLAYOUT_WITH_IMAGE";
     public static final String FEATURE_BOTTOM_NAVIGATION_VIEW = "FEATURE_BOTTOM_NAVIGATION_VIEW";
+    public static final String FEATURE_BOTTOM_SHEET = "FEATURE_BOTTOM_SHEET";
 
     private String id;
     private String name;
