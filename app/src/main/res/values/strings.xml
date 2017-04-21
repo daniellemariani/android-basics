@@ -105,5 +105,11 @@
     <string name="activity_quick_return">Quick Return</string>
     <string name="activity_tab">TabLayout</string>
     <string name="activity_tab_image">TabLayout Image</string>
+    <string name="activity_bottom_navigation">Bottom Navigation</string>
+
+    <!-- bottom navigation -->
+    <string name="bottom_navigation_gallery">Gallery</string>
+    <string name="bottom_navigation_search">Search</string>
+    <string name="bottom_navigation_call">Call</string>
 
 </resources>

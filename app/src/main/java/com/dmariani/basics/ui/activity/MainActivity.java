@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity implements MainActivityNavig
             navigateToTabLayoutSample();
         } else if (id.equals(Feature.FEATURE_TABLAYOUT_WITH_IMAGE)) {
             navigateToTabLayoutWithImageSample();
+        } else if (id.equals(Feature.FEATURE_BOTTOM_NAVIGATION_VIEW)) {
+            navigateToBottomNavigationViewSample();
         } else {
             Toast.makeText(this, "Navigate to Feature: " + feature.getName(), Toast.LENGTH_SHORT).show();
         }
@@ -101,5 +103,10 @@ public class MainActivity extends AppCompatActivity implements MainActivityNavig
     @Override
     public void navigateToTabLayoutWithImageSample() {
         startActivity(TabImageActivity.getIntent(this));
+    }
+
+    @Override
+    public void navigateToBottomNavigationViewSample() {
+        startActivity(BottomNavigationActivity.getIntent(this));
     }
 }

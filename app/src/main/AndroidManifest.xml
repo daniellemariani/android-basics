@@ -56,6 +56,12 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:parentActivityName=".ui.activity.MainActivity">
         </activity>
+        <activity
+            android:name=".ui.activity.BottomNavigationActivity"
+            android:label="@string/activity_bottom_navigation"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ui.activity.MainActivity">
+        </activity>
     </application>
 
 </manifest>

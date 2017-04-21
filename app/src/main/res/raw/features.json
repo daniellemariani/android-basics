@@ -28,5 +28,10 @@
     "id": "FEATURE_TABLAYOUT_WITH_IMAGE",
     "name": "TabLayout Image",
     "description": "Material Tabs through TabLayout with Flexible Space"
+  },
+  {
+    "id": "FEATURE_BOTTOM_NAVIGATION_VIEW",
+    "name": "Bottom Navigation",
+    "description": "Navigation sample using Bottom Navigation View component"
   }
 ]
